@@ -1,0 +1,31 @@
+[project]
+name = "chontak-finance"
+version = "1.0.0"
+description = "Track, organize, and analyze multi-currency income and expenses in Uzbek, English, or Russian."
+requires-python = ">=3.10"
+authors = [
+    { name = "Javlonbek Homidov", email = "hamidovjavlon1110@gmail.com" }
+]
+dependencies = [
+    "flet",
+    "flet-charts",
+    "httpx2"
+]
+
+[dependency-groups]
+dev = [
+    "flet-cli",
+    "flet-desktop",
+    "flet-web"
+]
+
+[tool.flet.metadata]
+title = "Cho`ntak"
+
+[tool.flet.gallery]
+categories = ["Getting Started"]
+
+[tool.flet]
+org = "dev.flet"
+company = "Javlonbek Homidov"
+copyright = "Copyright (C) 2026 by Javlonbek Homidov"
